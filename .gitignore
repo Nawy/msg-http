@@ -1,5 +1,8 @@
 # Project related
 
+# IDEA
+idea/
+
 # Java related
 pom.xml
 pom.xml.asc
