@@ -1,17 +1,20 @@
-(ns msg-http.service.message)
+(ns msg-http.service.message
+  (:require [msg-http.resource.database :as db]
+            [clj-time.local :as l]))
 
-(defrecord Message
+(defrecord Msg
   [key date text])
 
-(defrecord NewMsg
-  [recipient])
-
-(defn create
-  [new-msg])
+(defrecord MsgConnect [sender recipient text])
 
 (defn save
   [msg]
-  nil)
+  (db/save
+    (Msg.
+      (concat (:sender msg) (:recipient msg))
+      (l/local-now)
+      (:text msg)
+      )))
 
 (defn get
   [key amount]

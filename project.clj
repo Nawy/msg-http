@@ -7,6 +7,7 @@
                  [io.pedestal/pedestal.service "0.5.4"]
                  [cc.qbits/alia-all "4.1.0"]
                  [mount "0.1.14"]
+                 [clj-time "0.15.0"]
 
                  [io.pedestal/pedestal.jetty "0.5.4"]
                  ;; [io.pedestal/pedestal.immutant "0.5.4"]

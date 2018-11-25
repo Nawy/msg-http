@@ -7,4 +7,6 @@
 (defstate session
           :start (alia/connect cluster))
 
+(defn save [msg]
+  nil)
 
