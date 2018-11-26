@@ -64,7 +64,7 @@
     <orderEntry type="library" name="Leiningen: mount:0.1.14" level="project" />
     <orderEntry type="library" name="Leiningen: ns-tracker:0.3.1" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.9.0" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/core.async:0.4.474" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/core.async:0.4.490" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.cache:0.6.5" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.incubator:0.1.4" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.match:0.3.0-alpha5" level="project" />
