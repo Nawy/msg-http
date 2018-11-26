@@ -24,7 +24,7 @@
     <orderEntry type="library" name="Leiningen: ch.qos.logback/logback-classic:1.2.3" level="project" />
     <orderEntry type="library" name="Leiningen: ch.qos.logback/logback-core:1.2.3" level="project" />
     <orderEntry type="library" name="Leiningen: cheshire:5.8.0" level="project" />
-    <orderEntry type="library" name="Leiningen: clj-time:0.11.0" level="project" />
+    <orderEntry type="library" name="Leiningen: clj-time:0.15.0" level="project" />
     <orderEntry type="library" name="Leiningen: clojure-complete:0.2.4" level="project" />
     <orderEntry type="library" name="Leiningen: com.cognitect/transit-clj:0.8.309" level="project" />
     <orderEntry type="library" name="Leiningen: com.cognitect/transit-java:0.8.332" level="project" />
@@ -59,7 +59,7 @@
     <orderEntry type="library" name="Leiningen: io.pedestal/pedestal.service-tools:0.5.4" level="project" />
     <orderEntry type="library" name="Leiningen: io.pedestal/pedestal.service:0.5.4" level="project" />
     <orderEntry type="library" name="Leiningen: javax.servlet/javax.servlet-api:3.1.0" level="project" />
-    <orderEntry type="library" name="Leiningen: joda-time:2.8.2" level="project" />
+    <orderEntry type="library" name="Leiningen: joda-time:2.10" level="project" />
     <orderEntry type="library" name="Leiningen: manifold:0.1.6" level="project" />
     <orderEntry type="library" name="Leiningen: mount:0.1.14" level="project" />
     <orderEntry type="library" name="Leiningen: ns-tracker:0.3.1" level="project" />

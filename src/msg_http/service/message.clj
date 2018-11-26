@@ -3,7 +3,7 @@
             [clj-time.local :as l]))
 
 (defrecord Msg
-  [key date text])
+  [sender recipient date text])
 
 (defrecord MsgConnect [sender recipient text])
 
@@ -11,11 +11,11 @@
   [msg]
   (db/save
     (Msg.
-      (concat (:sender msg) (:recipient msg))
+      (:sender msg)
+      (:recipient msg)
       (l/local-now)
-      (:text msg)
-      )))
+      (:text msg))))
 
-(defn get
-  [key amount]
+(defn get-by-recipient
+  [recipient]
   nil)
