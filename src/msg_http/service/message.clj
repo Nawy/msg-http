@@ -18,4 +18,4 @@
 
 (defn get-by-recipient
   [recipient]
-  nil)
+  (db/find-by-recipient recipient))

@@ -11,14 +11,12 @@
                               (clojure-version)
                               (route/url-for ::about-page))))
 
-(defn new-message
-  [])
 
 (defn save-message
   [{:keys [headers params json-params path-params] :as request}]
   (msg/save ()))
 
-(defn get-message
+(defn find-message
   [{:keys [headers params json-params path-params] :as request}]
   ())
 

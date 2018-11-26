@@ -7,8 +7,7 @@
           :start (alia/connect cluster))
 
 (def save-statement (alia/prepare session "INSERT INTO messages(sender, recipient, date, text) VALUES(?, ?, ?)"))
-(def find-sender (alia/prepare session "SELECT recipient, sender, date, text FROM messages WHERE sender=?"))
-(def find-recipient (alia/prepare session "SELECT recipient, sender, date, text FROM messages WHERE recipient=?"))
+(def find-recipient-stat (alia/prepare session "SELECT recipient, sender, date, text FROM messages WHERE recipient=?"))
 
 (defn save
   [msg]
@@ -16,5 +15,4 @@
 
 (defn find-by-recipient
   [recipient]
-  (alia/execute)
-  )
+  (alia/execute sesssion find-recipient-stat {:values [recipient]}))
